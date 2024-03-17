@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// variables
+$body-color: #f4f4f4;
+$wrapper-color: #f6f8f9;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $body-color;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+.wrapper {
+  background: $wrapper-color;
+  width: 30rem;
+  padding: 2rem;
+  width: 40rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0px 9px 15px -3px rgba(0, 0, 0, 0.1);
+}
